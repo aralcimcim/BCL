@@ -1,0 +1,12 @@
+MEX {
+	global:
+		mexFunction;
+		mexfilerequiredapiversion;
+		emlrtMexFcnProperties;
+		calc_px_training;
+		calc_px_training_initialize;
+		calc_px_training_terminate;
+		calc_px_training_atexit;
+	local:
+		*;
+};

@@ -1,3 +1,0 @@
-# BCL
-
-Bayesian Chunk Learner
