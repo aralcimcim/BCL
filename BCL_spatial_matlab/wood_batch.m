@@ -18,12 +18,12 @@ bBeta = 1;
 alpha = 0.1;
 
 [N,T] = size(X);
-trainingLength = T;
+trainingLength = 12;
 
 Kmax = 1;
 wburn = 5;
 wsample = 10;
-stepNo = 100;
+stepNo = 5;
 burnIn = 0;
 
 [Zpost, Ypost, Rpost, muCTpost, SigmaCTpost, runTimes, Kmax, wburn, wsample] = ...
