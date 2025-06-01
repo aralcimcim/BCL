@@ -2,7 +2,7 @@ if ~exist('results', 'dir')
     mkdir('results');
 end
 
-timestamp = datestr(datetime('now'), 'dd.MM.yyyy_HHmm');
+timestamp = datestr(now, 'dd.mm.yyyy_HHMM');
 filename = ['results/results_' timestamp '.mat'];
 
 lda = 0.999;
